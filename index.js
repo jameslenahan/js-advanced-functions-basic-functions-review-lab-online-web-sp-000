@@ -1,3 +1,3 @@
-function saturdayFun(run="run") {
-  console.log("This Saturday, I want to `${run}")
+function saturdayFun() {
+  console.log("This Saturday, I want to roller-skae")
 }
