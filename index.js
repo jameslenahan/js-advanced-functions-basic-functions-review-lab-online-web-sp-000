@@ -11,3 +11,30 @@ function wrapAdjective(flair = '*'){
         return `You are ${char}${noun}${char}!`
     }
 }
+
+function actionApplyer(starting_int, function_array){
+    let int = starting_int;
+    function_array.forEach(func => {
+        int = func(int)
+    });
+    return int
+}
+
+const Calculator = {
+
+    add: function(a, b){
+        return a + b;
+    },
+
+    subtract: function(a, b){
+        return a - b;
+    },
+
+    multiply: function(a, b){
+        return a * b;
+    },
+
+    divide: function(a, b){
+        return a / b;
+    }
+};
