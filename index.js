@@ -1,3 +1,3 @@
-function saturdayFun() {
-  console.log("This Saturday, I want to roller-skae")
+let saturdayFun = function(activity="roller-skate") {
+  return `This Monday, I will ${activity}.`;
 }
